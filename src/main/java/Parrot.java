@@ -26,6 +26,7 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        // Changing the return to be identical to the input covers test cases
+        return text;
     }
 }
